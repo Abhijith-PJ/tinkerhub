@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+.assignment-body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../mainbg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.title h1{
+    color: #fff;
+    font-style: oblique;
+    font-size: 55px;
+}
+.title{
+    position: absolute ;
+    top: 10%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+}
+.title ul{
+    color: rgb(219, 34, 34);
+    font-style: oblique;
+    font-size: 30px;
+}
+.items img{
+    position: absolute;
+    top: 35.5%;
+    left: 12%;
+    width: 247px;
+    height: auto;    
+}
+
+
+.collage img{
+    position: absolute;
+    top: 35.5%;
+    left: 41%;
+    width: 276px;
+    height: 177px;    
+}
+.map img{
+    position: absolute;
+    top: 35.5%;
+    left: 71%;
+    width: 276px;
+    height: 177px;    
+}
+
+.call img{
+    position: absolute;
+    left: 74%;
+    width: 67px;
+    height: 65px;   
+}
+
+.info img{
+    position: absolute;
+    left: 82%;
+    width: 67px;
+    height: 64.8px;   
+}
+
+.end ul{
+    position: absolute;
+    color: rgb(158, 129, 129);
+    font-style: italic;
+    font-size: 15px;
+    top: 95%;
+    left: 45%;
+}
